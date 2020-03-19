@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.Logo img {
+    display: block;
+    margin: auto;
+    width: 5em;
+}
+
+.TopMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.MainContainer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainContainer-left img {
+    width: 50%;
+}
+
+.BlueBar {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.SubscribeNow-title p {
+    width: 50%;
+    text-align: center;
+}
+
+.Footer {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
