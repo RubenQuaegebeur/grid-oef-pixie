@@ -36,3 +36,28 @@
 .OrderBottom {
     display: flex;
 }
+
+.MainContainer-title {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.Navigation-bottom {
+    display: flex;
+    width: 5%;
+    margin: 20px auto;
+}
+
+.Navigation-bottom p {
+    border: 1px solid lightgray;
+    margin: 20px 5px;
+    padding: 10px;
+}
+
+.active {
+    color: white;
+    background-color: rgb(44, 125, 201);
+}
+hr {
+    width: 60%;
+}
