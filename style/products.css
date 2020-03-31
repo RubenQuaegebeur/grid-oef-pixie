@@ -1,0 +1,38 @@
+.Cards {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CardsContent {
+    /* margin: 10px; */
+    padding: 20px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardsContent img {
+    width: 17em;
+    height: 12em;
+}
+
+.CardsContent p {
+    margin: 0;
+    font-weight: 700;
+    color: rgb(44, 125, 201);
+}
+
+.CardsContent h4 {
+    margin-bottom: 10px;
+}
+
+.Carrousel {
+    padding: 20px 0;
+}
+
+.OrderTop,
+.OrderBottom {
+    display: flex;
+}
