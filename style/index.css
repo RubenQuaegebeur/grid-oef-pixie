@@ -1,14 +1,36 @@
 .TopBarBanner {
-    width: 100%;
-    height: 500px;
-    background-image: url('images/banner-b.jpg');
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 600px;
 }
 
 .TopBarInnerContent {
+    position: relative;
+    margin: -400px 200px;
     padding: 20px;
-    margin: 150px auto;
-    width: 20em;
-    background-color: lightgrey;
+    width: 30em;
+    background-color: hsl(0, 0%, 87%, 0.9);
+}
+
+.TopBarInnerContent h2::after {
+    position: relative;
+    top: 8px;
+    left: -47%;
+    display: block;
+    content: '';
+    border-bottom: 4px solid rgb(44, 125, 201);
+    width: 25px;
+    margin: auto;
+}
+
+button {
+    background-color: rgb(44, 125, 201);;
+    border-radius: 3px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    color: lightgray;
 }
 
 .Cards {
@@ -19,7 +41,6 @@
 }
 
 .CardsContent {
-    /* width: 30%; */
     margin: 10px;
     padding: 30px;
     border: 1px solid lightgrey;

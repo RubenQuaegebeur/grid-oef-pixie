@@ -1,0 +1,81 @@
+.MainContainer {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.MainContainer-text,
+.MainContainer-social {
+    padding: 0 30px;
+}
+
+.MainContainer-left {
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.MainContainer-left img {
+    width: 500px;
+}
+
+.MainContainer-text h4 {
+    color: rgb(44, 125, 201);
+}
+
+.Thumbnails {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Thumbnails img {
+    padding: 10px;
+    width: 33%;
+}
+
+.Cards {
+    margin: auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CardsContent {
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardsContent img {
+    width: 13em;
+    height: 12em;
+}
+
+.CardsContent p {
+    margin: 0;
+    font-weight: 700;
+    color: rgb(44, 125, 201);
+}
+
+.CardsContent h4 {
+    margin-bottom: 10px;
+}
+
+.Carrousel {
+    padding-top: 50px;
+}
+
+.OrderTop,
+.OrderBottom {
+    display: flex;
+}
+
+button {
+    background-color: rgb(44, 125, 201);;
+    border-radius: 3px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    color: lightgray;
+}
