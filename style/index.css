@@ -1,0 +1,43 @@
+.TopBarBanner {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/banner-b.jpg');
+}
+
+.TopBarInnerContent {
+    padding: 20px;
+    margin: 150px auto;
+    width: 20em;
+    background-color: lightgrey;
+}
+
+.Cards {
+    margin: auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CardsContent {
+    /* width: 30%; */
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardsContent img {
+    width: 13em;
+    height: 12em;
+}
+
+.CardsContent p {
+    margin: 0;
+    font-weight: 700;
+    color: rgb(44, 125, 201);
+}
+
+.CardsContent h4 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,63 @@
+.Main {
+    padding-bottom: 50px;
+}
+
+.MainContainer {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.MainContainer-title {
+    margin: auto;
+    width: 60%;
+}
+
+.MainContainer-title::before {
+    position: relative;
+    top: 17px;
+    left: -49%;
+    display: block;
+    content: '';
+    border-bottom: 4px solid rgb(44, 125, 201);
+    width: 25px;
+    margin: auto;
+}
+
+.MainContainer-right {
+    padding-left: 30px;
+}
+
+.MainContainer-text {
+    line-height: 23px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+/* Styling the form */
+
+button {
+    margin: 10px; 
+    background-color: rgb(44, 125, 201);;
+    border-radius: 3px;
+    width: 130px;
+    padding: 10px;
+    border: none;
+    color: lightgray;
+}
+
+input,textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.TopInputFields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BottomInputFileds {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
