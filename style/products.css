@@ -54,10 +54,15 @@
     padding: 10px;
 }
 
-.active {
+.Active-bottom {
     color: white;
     background-color: rgb(44, 125, 201);
 }
-hr {
+.BottomLine {
     width: 60%;
+    margin: auto;
+}
+
+.active {
+    color: rgb(44, 125, 201);
 }

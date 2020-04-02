@@ -26,7 +26,7 @@
 }
 
 .MainContainer-right {
-    padding-left: 30px;
+    margin-left: 20px;
 }
 
 .MainContainer-text {
@@ -46,9 +46,11 @@ button {
     color: lightgray;
 }
 
-input,textarea {
+.TopInputFields input {
+    margin-right: 20px;
     margin-bottom: 20px;
     padding: 15px;
+    width: 50%;
 }
 
 .TopInputFields {
@@ -56,8 +58,8 @@ input,textarea {
     justify-content: space-between;
 }
 
-.BottomInputFileds {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.BottomInputFields textarea, input{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
 }
