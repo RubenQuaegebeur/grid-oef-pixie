@@ -20,6 +20,10 @@ h3 {
     margin: 0;
 }
 
+.Menu-item {
+    font-weight: 700;
+}
+
 .Menu-item.active a{
     color: rgb(44, 125, 201);
 }
