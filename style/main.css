@@ -20,7 +20,11 @@ h3 {
     margin: 0;
 }
 
-.Menu-item .active {
+.Menu-item {
+    font-weight: 700;
+}
+
+.Menu-item.active a{
     color: rgb(44, 125, 201);
 }
 
@@ -59,10 +63,6 @@ h3 {
 
 .TopMenu a {
     color: black;
-}
-
-.TopMenu a:active {
-    color: rgb(44, 125, 201);
 }
 
 /* Footer layout  */
@@ -151,11 +151,6 @@ h3 {
     background-color: rgb(44, 125, 201);
 }
 
-::placeholder {
-    color: white;
-    text-align: left;
-}
-
 .SubscribeNow-input button {
     margin-left: 25px;
     color: rgb(44, 125, 201);;
@@ -164,4 +159,9 @@ h3 {
     padding: 10px;
     border: none;
     background-color: white;
+}
+
+.SubscribeNow-input ::placeholder {
+    color: white;
+    text-align: left;
 }

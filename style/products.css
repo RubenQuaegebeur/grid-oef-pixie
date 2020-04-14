@@ -1,12 +1,11 @@
 .Cards {
     margin: auto;
-    width: 70%;
+    width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .CardsContent {
-    /* margin: 10px; */
     padding: 20px;
     border: 1px solid lightgrey;
     display: flex;
@@ -14,8 +13,8 @@
 }
 
 .CardsContent img {
-    width: 17em;
-    height: 12em;
+    width: 19em;
+    height: 14em;
 }
 
 .CardsContent p {
@@ -29,7 +28,7 @@
 }
 
 .Carrousel {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .OrderTop,
@@ -39,7 +38,13 @@
 
 .MainContainer-title {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
+}
+
+.Title-topMenu a {
+    margin: 10px;
+    color: black;
+    font-weight: 600;
 }
 
 .Navigation-bottom {
@@ -54,10 +59,15 @@
     padding: 10px;
 }
 
-.active {
+.Active-bottom {
     color: white;
     background-color: rgb(44, 125, 201);
 }
-hr {
+.BottomLine {
     width: 60%;
+    margin: auto;
+}
+
+.active {
+    color: rgb(44, 125, 201);
 }
