@@ -119,3 +119,55 @@ button {
 .NonActive-smallButton {
     background-color: lightgrey;
 }
+
+.NoDisplayButton {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .MainContainer-left img{
+        width: 400px;
+    }
+
+    .Main {
+        margin: auto;
+        width: 100%;
+    }
+    .MainContainer,
+    .MainContainer-left,
+    .MainContainer-right {
+        width: 90%;
+    }
+
+    .MediumDisplay{
+        margin: auto;
+        width: 90%;
+    }
+
+    .NoDisplayThumbnail {
+        display: none;
+    }
+
+    .NoDisplayButton {
+        display: block;
+    }
+
+    .Cards {
+        margin: auto;
+        width: 90%;
+        justify-content: unset;
+    }
+
+    .CardsContent img {
+        width: 18em;
+        height: 17em;
+    }
+
+    .CardsNoDisplay {
+        display: none;
+    }
+
+    .Thumbnails img{
+        width: 50%;
+    }
+}

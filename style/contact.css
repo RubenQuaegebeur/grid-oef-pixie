@@ -72,3 +72,19 @@ button {
 .MainContainer-social {
     display: flex;
 }
+
+@media screen and (max-width:900px) {
+    .MainContainer-left img{
+        width: 400px;
+    }
+
+    .Main {
+        margin: auto;
+        width: 90%;
+    }
+    .MainContainer,
+    .MainContainer-title {
+        width: 100%;
+    }
+
+}

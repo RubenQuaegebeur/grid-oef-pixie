@@ -1,4 +1,17 @@
-.Cards {
+.MainContainer-title {
+    margin: auto;
+    width: 90%;
+}
+
+.Title-topMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Cards,
+.TopTitle {
     margin: auto;
     width: 60%;
     display: flex;
@@ -36,11 +49,6 @@
     display: flex;
 }
 
-.MainContainer-title {
-    display: flex;
-    justify-content: space-between;
-}
-
 .Title-topMenu a {
     margin: 10px;
     color: black;
@@ -50,7 +58,7 @@
 .Navigation-bottom {
     display: flex;
     width: 5%;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .Navigation-bottom p {
@@ -70,4 +78,62 @@
 
 .active {
     color: rgb(44, 125, 201);
+}
+
+/* Responsive design  */
+
+/* 900px */
+
+@media screen and (max-width:900px) {
+    .TopTitle {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .MainContainer-left img{
+        width: 400px;
+    }
+
+    .Main {
+        margin: auto;
+        width: 100%;
+    }
+    .MainContainer,
+    .MainContainer-left,
+    .MainContainer-right {
+        width: 90%;
+    }
+
+    .MediumDisplay{
+        margin: auto;
+        width: 90%;
+    }
+
+    .NoDisplayThumbnail {
+        display: none;
+    }
+
+    .NoDisplayButton {
+        display: block;
+    }
+
+    .Cards {
+        margin: auto;
+        width: 90%;
+    }
+
+    .CardsContent img {
+        width: 13em;
+        height: 12em;
+    }
+
+    .CardsNoDisplay {
+        display: none;
+    }
+
+    .Thumbnails img{
+        width: 50%;
+    }
 }

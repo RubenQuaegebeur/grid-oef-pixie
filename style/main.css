@@ -165,3 +165,18 @@ h3 {
     color: white;
     text-align: left;
 }
+
+@media screen and (max-width:900px) {
+    .LineNoDisplay {
+        border: none;
+    }
+
+    .Footer-menu {
+        width: 100%;
+    }
+
+    .TopMenu {
+        display: none;
+        width: 100%;
+    }
+}
