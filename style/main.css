@@ -20,6 +20,10 @@ h3 {
     margin: 0;
 }
 
+.HamburgerMenu {
+    display: none;
+}
+
 .Menu-item {
     font-weight: 700;
 }
@@ -98,11 +102,6 @@ h3 {
 
 /* Blue bar above the footer  */
 
-.SubscribeNow-title p {
-    width: 50%;
-    text-align: center;
-}
-
 .BlueBar {
     margin: auto;
     text-align: center;
@@ -165,6 +164,13 @@ h3 {
     color: white;
     text-align: left;
 }
+.BlueBox {
+    display: none;
+}
+
+/* Responsive design  */
+
+/* 900px */
 
 @media screen and (max-width:900px) {
     .LineNoDisplay {
@@ -178,5 +184,123 @@ h3 {
     .TopMenu {
         display: none;
         width: 100%;
+    }
+
+    .ResponsiveMenu {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ResponsiveMenu hr {
+        display: none;
+    }
+
+    .BlueBox {
+        margin-top: 20px;
+        display: block;
+        border: 1px solid rgb(44, 125, 201);
+        background-color: rgb(44, 125, 201);
+        border-radius: 5px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .HamburgerMenu {
+        display: block;
+        border-bottom: 3px solid white;
+        width: 15px;
+        margin: 13px auto; 
+    }
+
+    .HamburgerMenu::before {
+        position: relative;
+        display: block;
+        content: '';
+        border-bottom: 3px solid white;
+        width: 15px;
+    }
+
+    .HamburgerMenu::after {
+        position: relative;
+        top: 9px;
+        display: block;
+        content: '';
+        border-bottom: 3px solid white;
+        width: 15px;
+    }
+}
+
+/* 450px */
+
+@media screen and (max-width:450px) {
+    .SubscribeNow-content p {
+        width: 100%;
+    }
+
+    .SubscribeNow-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SubscribeNow-input input,
+    .SubscribeNow-input button {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .SubscribeNow-input input {
+        margin-bottom: 20px;
+    }
+
+    .Footer {
+        width: 90%;
+    }
+
+    .ResponsiveMenu {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ResponsiveMenu hr {
+        display: none;
+    }
+
+    .BlueBox {
+        margin-top: 20px;
+        display: block;
+        border: 1px solid rgb(44, 125, 201);
+        background-color: rgb(44, 125, 201);
+        border-radius: 5px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .HamburgerMenu {
+        display: block;
+        border-bottom: 3px solid white;
+        width: 15px;
+        margin: 13px auto; 
+    }
+
+    .HamburgerMenu::before {
+        position: relative;
+        display: block;
+        content: '';
+        border-bottom: 3px solid white;
+        width: 15px;
+    }
+
+    .HamburgerMenu::after {
+        position: relative;
+        top: 9px;
+        display: block;
+        content: '';
+        border-bottom: 3px solid white;
+        width: 15px;
     }
 }

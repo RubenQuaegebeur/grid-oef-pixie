@@ -73,6 +73,11 @@ button {
     display: flex;
 }
 
+
+/* Responsive design  */
+
+/* 900px */
+
 @media screen and (max-width:900px) {
     .MainContainer-left img{
         width: 400px;
@@ -87,4 +92,30 @@ button {
         width: 100%;
     }
 
+}
+
+/* 450px  */
+
+@media screen and (max-width:450px) {
+    .MainContainer {
+        display: block;
+    }
+
+    .TopInputFields {
+        margin: auto;
+        display: block;
+    }
+
+    .TopInputFields input {
+        width: 100%;
+    }
+
+    .MainContainer-right {
+        margin-left: 0;
+    }
+
+    .MainContainer-left {
+        margin-bottom: 20px;
+    }
+   
 }

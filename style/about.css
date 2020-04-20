@@ -38,6 +38,10 @@
     border-bottom: 1px solid lightgray;
 }
 
+/* Responsive design  */
+
+/* 900px  */
+
 @media screen and (max-width:900px) {
     .MainContainer-left img{
         width: 400px;
@@ -52,4 +56,19 @@
         width: 100%;
     }
 
+    .MainContainer-left {
+        margin-bottom: 20px;
+    }
+}
+
+/* 450px  */
+
+@media screen and (max-width:450px) {
+    .MainContainer {
+        display: block;
+    }
+
+    .MainContainer-right {
+        padding-left: 0;
+    }
 }

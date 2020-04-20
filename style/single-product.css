@@ -124,6 +124,10 @@ button {
     display: none;
 }
 
+/* Responsive design  */
+
+/* 900px */
+
 @media screen and (max-width:900px) {
     .MainContainer-left img{
         width: 400px;
@@ -170,4 +174,49 @@ button {
     .Thumbnails img{
         width: 50%;
     }
+}
+
+/* 450px */
+
+@media screen and (max-width:450px) {
+    .MainContainer{ 
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .MainContainer-left {
+        margin: 20px auto;
+
+    }
+
+    .MainContainer-right {
+        width: 100%;
+    }
+
+    .MainContainer-left img{
+        width: 100%;
+    }
+
+    .Cards {
+        display: block;
+        width: 90%;
+    }
+
+    .CardsContent img {
+        width: 100%;
+    }
+
+    .Small {
+        display: none;
+    }
+
+    .NoDisplayButtonSmall {
+        display: block;
+    }
+
+    .MainContainer-title {
+        margin-top: 25px;
+    }
+
 }
